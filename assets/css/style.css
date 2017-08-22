@@ -60,6 +60,12 @@ h4 {
   font-weight: bold;
   color: #fff;
 }
+.word {
+  text-align:center;
+  font-size: 25px;
+  margin-top:40px;
+  letter-spacing: 20px;
+}
 #reset-game {
   height: 201px;
   margin-top:-33px;
@@ -85,6 +91,10 @@ i {
   display: block;
   font-size: 80px;
   color: #fff;
+}
+.hangman {
+  margin: 0 auto;
+  margin-top: 10px;
 }
 @media screen and (max-width:991px) {
   #reset-game {
