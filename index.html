@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hangman | Do you dare?</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Nosifer" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon-e543e06e.png"/>
   </head>
   <body>
     <div class="container">
@@ -17,11 +17,11 @@
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <div class="main-section" id="instructions">
             <h2>Instructions:</h2>
-            <p>Press any key to start. You have x guesses. After x guesses if you haven’t guessed the correct word, you lose.</p>
+            <p>Press any key to start. You have 10 guesses. After 10 guesses if you haven’t guessed the correct word, you lose.</p>
             <h2>Your guesses remaining:</h2>
             <p><span id="guesses-remaining">10</span></p>
             <h2>Letters guessed:</h2>
-            <p><span id="letters-guessed"></span></p>
+            <p class="wrongLetters"><span id="letters-guessed"></span></p>
           </div>
         </div>
         <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">

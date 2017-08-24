@@ -66,6 +66,9 @@ h4 {
   margin-top:40px;
   letter-spacing: 20px;
 }
+.wrongLetters {
+  letter-spacing:10px;
+}
 #reset-game {
   height: 201px;
   margin-top:-33px;
