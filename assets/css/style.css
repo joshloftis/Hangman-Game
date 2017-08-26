@@ -69,7 +69,7 @@ h4 {
 .wrongLetters {
   letter-spacing:10px;
 }
-#reset-game {
+#new-word {
   height: 201px;
   margin-top:-33px;
   border-radius: 0 0 8px 8px;
@@ -80,15 +80,14 @@ h4 {
 #losses-area {
   border-radius:0;
 }
-#reset-game h3 {
+#new-word h3 {
   font-size:40px;
-  text-transform: uppercase;
 }
-h4, i {
+#hangman-img {
+  width: 175px;
+}
+h4 {
   text-align:center;
-}
-i {
-  margin-top:10px;
 }
 .fa {
   display: block;
@@ -99,8 +98,29 @@ i {
   margin: 0 auto;
   margin-top: 10px;
 }
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+.fa-stack-overflow:hover {
+  color: #FF9900;
+}
+.fa-github:hover {
+  color: #000000;
+}
+#connect-area a {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+#new-word:hover {
+  background: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+#new-word:hover h3 {
+  color:black;
+}
 @media screen and (max-width:991px) {
-  #reset-game {
+  #new-word {
     margin-top:0;
     height: 202px;
   }
